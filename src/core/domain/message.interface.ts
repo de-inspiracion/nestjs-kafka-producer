@@ -1,3 +1,3 @@
-export interface KafkaRepositotyInterface {
+export interface MessageInterface {
   send(message: string, topic: string): any;
 }
